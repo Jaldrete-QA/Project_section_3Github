@@ -10,9 +10,9 @@ jobs: #run test
          run: npm ci
        - name: run Lint
          run: npm run lint
-       - name: test code
+       - name: Test code
          run: npm test
-       - name: run build
+       - name: Build Code
          run: npm run build
        - name: Deploy code
          run: echo "Deploying..."
